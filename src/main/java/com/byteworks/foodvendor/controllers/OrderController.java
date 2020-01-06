@@ -27,7 +27,7 @@ public class OrderController {
     }
 
     @GetMapping("/meal/{mealName}")
-    public List<Order> getAllOrdersOfAPerticularMeal(@PathVariable  String mealName){
+    public List<Order> getAllOrdersOfAParticularMeal(@PathVariable  String mealName){
         return orderService.getByMealInAllOrders(mealName);
     }
 

@@ -16,6 +16,7 @@ public class Meal {
     @Id
     private String id;
 
+
     @Indexed(unique = true)
     @NotBlank(message = "Meal name is mandatory")
     private String name;
@@ -24,6 +25,7 @@ public class Meal {
     @Min(value = 0L, message = "The price must be positive")
     private double price;
 
+    ///description for the meal
     private String description;
 
     private Meal(){

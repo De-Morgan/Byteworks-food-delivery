@@ -15,21 +15,25 @@ public class Order {
     @Id
     private String id;
 
+    /// developer username that made the order
     @NotBlank
     private String developerUsername;
 
 
+    /// the list of ordered food
     private List<String> requestedFoodNames;
 
-    @Min(value = 0L, message = "The totalcost must be positive")
+    //total cost of the order, to be calculated from the list of ordered food
     private double totalCost;
 
+    ///payment method, can be CARD or PAYONDELIVERY
     private PaymentMethod paymentMethod;
 
     @NotNull
     private Boolean officeDelivery;
 
 
+    //optional parameter to be included if it the offer is office delivered
     private  double distance;
 
 
