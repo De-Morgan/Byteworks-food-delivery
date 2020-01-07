@@ -12,7 +12,7 @@
 
 #API ENDPOINTS
 
-1. ##Food Api endpoints
+1. Food Api endpoints
 
 | **HTTP VERBS** | **ENDPOINTS**                 | **DESCRIPTION**
 | -------------- | ----------------------------- | ----------------------------
@@ -21,7 +21,7 @@
 
 
 
-1. ##User Api endpoints
+2. User Api endpoints
 
 | **HTTP VERBS** | **ENDPOINTS**                 | **DESCRIPTION**
 | -------------- | ----------------------------- | ----------------------------
@@ -29,7 +29,7 @@
 
 
 
-1. ##Order Api endpoints
+3. Order Api endpoints
 
 | **HTTP VERBS** | **ENDPOINTS**                 | **DESCRIPTION**
 | -------------- | ----------------------------- | ----------------------------
